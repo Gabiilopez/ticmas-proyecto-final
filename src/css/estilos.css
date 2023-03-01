@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box
+}
+
+body {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: bisque;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+button {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 15px
+}
+
+.imagen{
+  width: 25%;
+  float: left;
+}
+
+.nav{
+  width: 75%;
+  float: left;
+}
+
+#mas-info-1, #mas-info-2 {
+  display: none;
+}
+
+#header {
+  display: block;
+}
